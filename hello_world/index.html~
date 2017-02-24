@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+  <main></main>
+  <script src="MyApp.js"></script>
+  <script>
+    new MyApp({
+      target: document.querySelector('main'),
+      data: { name: 'world'}
+    });
+  </script>
+</body>
+</html>
